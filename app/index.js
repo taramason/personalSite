@@ -1,6 +1,7 @@
 var React = require ('react');
 var ReactDOM = require ('react-dom');
-require ('./index.css');
+var PropTypes = require ('prop-types');
+require ('./styles/index.scss');
 
 
 //what component needs:

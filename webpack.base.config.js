@@ -16,7 +16,7 @@ module.exports = {
         use:'babel-loader'
       },
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         loader: combineLoaders([
           {
             loader: 'style-loader'
@@ -28,9 +28,9 @@ module.exports = {
               localIdentName: '[name]__[local]___[hash:base64:5]'
             }
           },
-          // {
-          //   loader: 'sass-loader',
-          // }
+          {
+            loader: 'sass-loader',
+          }
         ])
       }
     ]
