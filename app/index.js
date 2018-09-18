@@ -1,7 +1,9 @@
 var React = require ('react');
 var ReactDOM = require ('react-dom');
 var PropTypes = require ('prop-types');
-require ('./styles/index.scss');
+var App = require('./components/App');
+
+require ('./styles/index.css');
 
 
 //what component needs:
@@ -10,22 +12,10 @@ require ('./styles/index.scss');
 //lifecycle events
 
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        Yeeah World!
-      </div>
-    )
-  }
-}
+ //using a component class because IRL I'm assuming this page would (as opposed to a stateless functional component, which is what I wanted to use initially)
+
 
 ReactDOM.render(
   <App />,
   document.getElementById('app')
 )
-
-// module.hot.accept('./app/index.js', () => {
-//  const NextRootContainer = require('./app/index.js').default;
-//  render(<NextRootContainer />, document.getElementById('app'));
-// })

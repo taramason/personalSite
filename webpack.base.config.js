@@ -16,21 +16,22 @@ module.exports = {
         use:'babel-loader'
       },
       {
-        test: /\.scss$/,
+        test: /\.css$/,
         loader: combineLoaders([
           {
             loader: 'style-loader'
           },
           {
             loader: 'css-loader',
-            query: {
+            options: {
+              sourceMap: true,
               modules: true,
               localIdentName: '[name]__[local]___[hash:base64:5]'
             }
           },
-          {
-            loader: 'sass-loader',
-          }
+          // {
+          //   loader: 'sass-loader',
+          // }
         ])
       }
     ]

@@ -1,0 +1,28 @@
+body {
+  font-family: Sailec-Regular;
+  background-color: #f8f8f8;
+}
+
+.main {
+  max-width: 1150px;
+}
+
+.headerContainer {
+  width: fit-content;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+}
+
+.headerH1Top {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.headerH2Top {
+  text-align: center;
+  font-family: Surveyor;
+  font-size: 26px;
+  margin: 0;
+}
