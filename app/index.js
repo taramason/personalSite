@@ -15,7 +15,7 @@ require ('./styles/index.css');
  //using a component class because IRL I'm assuming this page would (as opposed to a stateless functional component, which is what I wanted to use initially)
 
 
-ReactDOM.render(
+ReactDOM.render (
   <App />,
   document.getElementById('app')
 )

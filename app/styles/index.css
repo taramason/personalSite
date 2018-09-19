@@ -1,17 +1,24 @@
 body {
   font-family: Sailec-Regular;
   background-color: #f8f8f8;
+
+}
+html {
+width: 100vw;
 }
 
 .main {
-  max-width: 1150px;
+  max-width: 900px;
+  /* change to 1150? */
+  margin: auto;
 }
 
 .headerContainer {
+  position: relative;
   width: fit-content;
   margin: auto;
   background-color: white;
-  padding: 20px;
+  padding: 40px 70px;
 }
 
 .headerH1Top {
@@ -25,4 +32,45 @@ body {
   font-family: Surveyor;
   font-size: 26px;
   margin: 0;
+}
+
+.imgContainer {
+  max-width: 900px;
+  /* change to 1150 */
+  display:inline-block;
+  height:;
+  margin:auto;
+}
+
+.roomImg {
+  margin-top: -3%;
+  width: 100%;
+  max-width: 900px;
+  /* change to 1150 */
+  z-index: -1;
+}
+
+.BtmDiv {
+  display: flex;
+}
+
+.stylesDiv {
+}
+
+.stylesList {
+  column-count: 2;
+}
+
+.stylesList li{
+  list-style-type: none;
+  width: 50%;
+  margin: 0;
+}
+.stylesList li:before {
+  content: "• ";
+  /* turn into a checkmark */
+}
+
+.LtBtm {
+  width: 50%;
 }
