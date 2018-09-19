@@ -8,11 +8,25 @@ var Deets = require('./deets');
 
 class BtmHalf extends React.Component {
   render() {
+    const propData = {
+      stylesUsed: [
+        "classic",
+        "bohemian",
+        "eclectic",
+        "modern"
+      ],
+      clientName: "Faye J",
+      clientLocation: "Chicago, IL",
+      designerName: "Kylee T",
+      designerLocation: "Denver, CO",
+      timeline: "4 weeks",
+      budget: "$6,000"
+    };
     return (
       <div className={style.BtmDiv}>
         <div className={style.LtBtm}>
           <Blurb />
-          <StylesUsed />
+          <StylesUsed propData={propData}/>
         </div>
         <Deets />
       </div>

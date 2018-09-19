@@ -7,7 +7,8 @@ class StylesUsed extends React.Component {
     return (
       <div className={style.stylesDiv}>
         <ul className={style.stylesList}>
-          <li>stuff</li>
+          <li>{this.props.propData.stylesUsed[0]}</li>
+          {/* do .map to iterate through */}
           <li>stuff</li>
           <li>stuff</li>
           <li>stuff</li>
