@@ -7,7 +7,7 @@ class Top extends React.Component {
     return (
       <div className={style.headerContainer}>
         <h1 className={style.headerH1Top}>Case Study</h1>
-        <h2 className={style.headerH2Top}>Fayes Classic Eclectic Living Room</h2>
+        <h2 className={style.headerH2Top}>Faye's Classic Eclectic Living Room</h2>
       </div>
     )
   }

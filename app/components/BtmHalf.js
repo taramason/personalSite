@@ -24,7 +24,7 @@ class BtmHalf extends React.Component {
     };
     return (
       <div className={style.BtmDiv}>
-        <div className={style.LtBtm}>
+        <div className={style.ltBtm}>
           <Blurb />
           <StylesUsed propData={propData}/>
         </div>

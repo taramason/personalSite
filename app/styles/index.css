@@ -1,7 +1,9 @@
 body {
   font-family: Sailec-Regular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: #f8f8f8;
-
+  color: #1C2233;
 }
 html {
 width: 100vw;
@@ -25,13 +27,18 @@ width: 100vw;
   text-align: center;
   font-size: 16px;
   margin-top: 0;
+  letter-spacing: .49px;
+  color: #F6C4BD;
+  text-transform: uppercase;
 }
 
 .headerH2Top {
   text-align: center;
-  font-family: Surveyor;
+  font-family: Surveyor_Webfont;
+  font-weight: 600;
   font-size: 26px;
   margin: 0;
+  letter-spacing: .8px;
 }
 
 .imgContainer {
@@ -52,53 +59,93 @@ width: 100vw;
 
 .BtmDiv {
   display: flex;
+  margin-top: 20px;
+}
+.stylesDiv {
+  padding-top: 10px;
 }
 
 .stylesDiv h3 {
   color: #F6C4BD;
   font-size: 12px;
   text-transform: uppercase;
+  letter-spacing: .6px;
 }
 
 .stylesList {
+  font-family: Surveyor_Webfont;
+  letter-spacing: .8px;
   column-count: 2;
   padding-left: 0;
-  font-size: 13px;
+  font-size: 14px;
+  margin-top: 0;
 }
 
-.stylesList li{
+.stylesList li {
   list-style-type: none;
   width: 50%;
   margin: 0;
+  text-transform: capitalize;
+  padding: 2px;
 }
 .stylesList li:before {
-  content: "• ";
+  /* font-family: Material+Icons;
+  content: url("./checkmark.svg"); */
+  /* content: "• "; */
   /* TODO: turn into a checkmark */
 }
 
-.LtBtm {
+.ltBtm {
   width: 50%;
 }
 .blurbText {
-  font-family: Surveyor;
-  font-size: 22px;
+  font-family: Surveyor_Webfont;
+  font-size: 26px;
+  letter-spacing: -.37px;
+  line-height: 36px;
+  padding-right: 20px;
+  font-weight: 200;
 }
 
 .blurbText::first-letter {
   font-size: 200%;
 }
 
-.RtBtm {
+.rtBtm {
+  box-sizing:border-box;
   background-color: white;
+  width: 50%;
+  margin: 20px 0 20px 0;
+  padding: 50px 60px;
 }
 
 .clientStyleDeets {
-  column-count: 2;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0;
+}
+
+.clientStyleDeets div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .clientStyleDeets dd {
   margin:0;
+  font-size: 13px;
+  font-family: Surveyor_Webfont;
 }
+
 .clientStyleDeets dt {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: Sailec-Medium;
   margin:0;
+  letter-spacing: .8px;
+}
+
+.clientTitle::after{
+  content: ":";
 }

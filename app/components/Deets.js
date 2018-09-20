@@ -5,20 +5,36 @@ var style = require ('../styles/index.css');
 class Deets extends React.Component {
   render() {
     return (
-      <div className={style.RtBtm}>
+      <div className={style.rtBtm}>
         <dl className={style.clientStyleDeets}>
-          <dt>Client Name</dt>
-          <dd>{this.props.propData.clientName}</dd>
-          <dt>Client Location</dt>
-          <dd>{this.props.propData.clientLocation}</dd>
-          <dt>Designer Name</dt>
-          <dd>{this.props.propData.designerName}</dd>
-          <dt>Designer Location</dt>
-          <dd>{this.props.propData.designerLocation}</dd>
-          <dt>Timeline</dt>
-          <dd>{this.props.propData.timeline}</dd>
-          <dt>Budget</dt>
-          <dd>{this.props.propData.budget}</dd>
+          <div>
+            <div>
+              <dt className={style.clientTitle}>Client Name</dt>
+              <dd className={style.clientInfo}>{this.props.propData.clientName}</dd>
+            </div>
+            <div>
+              <dt className={style.clientTitle}>Client Location</dt>
+              <dd className={style.clientInfo}>{this.props.propData.clientLocation}</dd>
+            </div>
+            <div>
+              <dt className={style.clientTitle}>Designer Name</dt>
+              <dd className={style.clientInfo}>{this.props.propData.designerName}</dd>
+            </div>
+          </div>
+          <div>
+            <div>
+              <dt className={style.clientTitle}>Designer Location</dt>
+              <dd className={style.clientInfo}>{this.props.propData.designerLocation}</dd>
+            </div>
+            <div>
+              <dt className={style.clientTitle}>Timeline</dt>
+              <dd className={style.clientInfo}>{this.props.propData.timeline}</dd>
+            </div>
+            <div>
+              <dt className={style.clientTitle}>Budget</dt>
+              <dd className={style.clientInfo}>{this.props.propData.budget}</dd>
+            </div>
+          </div>
         </dl>
       </div>
     )
