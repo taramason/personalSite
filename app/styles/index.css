@@ -9,7 +9,7 @@ width: 100vw;
 
 .main {
   max-width: 900px;
-  /* change to 1150? */
+  /* TODO: change to 1150? */
   margin: auto;
 }
 
@@ -36,7 +36,7 @@ width: 100vw;
 
 .imgContainer {
   max-width: 900px;
-  /* change to 1150 */
+  /* TODO: change to 1150 */
   display:inline-block;
   height:;
   margin:auto;
@@ -46,7 +46,7 @@ width: 100vw;
   margin-top: -3%;
   width: 100%;
   max-width: 900px;
-  /* change to 1150 */
+  /* TODO: change to 1150 */
   z-index: -1;
 }
 
@@ -54,11 +54,16 @@ width: 100vw;
   display: flex;
 }
 
-.stylesDiv {
+.stylesDiv h3 {
+  color: #F6C4BD;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 .stylesList {
   column-count: 2;
+  padding-left: 0;
+  font-size: 13px;
 }
 
 .stylesList li{
@@ -68,9 +73,32 @@ width: 100vw;
 }
 .stylesList li:before {
   content: "• ";
-  /* turn into a checkmark */
+  /* TODO: turn into a checkmark */
 }
 
 .LtBtm {
   width: 50%;
+}
+.blurbText {
+  font-family: Surveyor;
+  font-size: 22px;
+}
+
+.blurbText::first-letter {
+  font-size: 200%;
+}
+
+.RtBtm {
+  background-color: white;
+}
+
+.clientStyleDeets {
+  column-count: 2;
+}
+
+.clientStyleDeets dd {
+  margin:0;
+}
+.clientStyleDeets dt {
+  margin:0;
 }

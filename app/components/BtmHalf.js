@@ -28,7 +28,7 @@ class BtmHalf extends React.Component {
           <Blurb />
           <StylesUsed propData={propData}/>
         </div>
-        <Deets />
+        <Deets propData={propData}/>
       </div>
     )
   }
