@@ -33,13 +33,13 @@ Take a look at the attached mockups, and assume you're being assigned to build t
 Answer the following questions:
 
 * What are the most important questions you have about the mocks and how they should work?
-**_What is the main purpose of this page (sometimes this is not as obvious as you would think).  What is that on/off switch on the rt side? How do we want it to work/look on mobile?  Will mobile have the same functionality?  Is the main center image one static image or is it broken up into separate images (each item of furniture is a separate image?)  What does the data look like that I will be loading in? What do you want it to look like when any button is clicked, or when another message is sent/received? After something has been rated, should there be some indication that it has been done (like the hover icon turns lighter or something)? Have you done any User Testing on this page, if so what where the results?_**
+**_What is the main purpose of this page (sometimes this is not as obvious as you would think).  What is that on/off switch on the rt side?? How should it work/look on mobile?  Will mobile have the same functionality?  What is the user doing before and after this page? Is the main center image one static image or is it broken up into separate images (each item of furniture is a separate image?)  What does the data look like that I will be loading in? What do you want it to look like when any button is clicked, or when another message is sent/received? After a furniture piece has been rated, or added to the cart, should there be some indication that it has been done (like the hover icon turns lighter or it turns into the smiley or frowny face)? Is there a shopping cart somewhere that will indicate it will be added to the cart? Have you done any User Testing on this page, if so what where the results?_**
 
 * What seems like, potentially, the biggest unknown?
-**_What is that "on/off" switch in the "your living room concept" div on the right side ?? What is the proposed functionality?_**
+**_What is that "on/off" switch in the "your living room concept" div on the right side?? What is the proposed functionality?_**
 
 * What changes would you recommend making to make this interface work well on mobile?
-**_Have each furniture item stack down the page (instead of just having a large image that can be zoomed in)._**
+**_Have each furniture item stack down the page (instead of just having a large image that can be zoomed in). Everything else is pretty straightforward and seems like they will resize fairly easily. Any other recommendations would be from the app level (i.e. how to acces your account, favorite items, etc)_**
 
 ****
 
