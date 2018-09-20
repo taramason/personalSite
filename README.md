@@ -24,7 +24,7 @@ Your production build config should include:
 
 * Build the following page design to match the responsive.png mock-up as closely as you can. Use the React/webpack project set up in the last question. We don't have a mobile mock for this page, but be sure to build it mobile-first and make your own decisions about how to display the layout at that size.  **_I am 90% DONE, Need to make responsive. The Surveyor Fonts are not displaying the way they should (its a subtle but important difference), I'm not sure why, haven't had a chance to dig deeper, given more time I would try to import the ttf's and convert them_**  
 
-* The page shown on the mock is the max-width - if a user's screen is wider than 1150px, the page should be the size shown and centered in the browser.
+* The page shown on the mock is the max-width - if a user's screen is wider than 1150px, the page should be the size shown and centered in the browser.**_I have not started making it responsive yet_**
 
 ****
 
@@ -33,7 +33,7 @@ Take a look at the attached mockups, and assume you're being assigned to build t
 Answer the following questions:
 
 * What are the most important questions you have about the mocks and how they should work?
-**_What is the main purpose of this page (sometimes this is not as obvious as you would think).  What is that on/off switch on the rt side? How do we want it to work/look on mobile?  Will mobile have the same functionality?  Is the main center image one static image or is it broken up into separate images (each item of furniture is a separate image?)  What does the data look like that I will be loading in? What do you want it to look like when any button is clicked, another message is sent/received? After something has been rated, should there be some indication that it has been done (like the hover icon turns lighter or something)? Have you done any User Testing on this page, if so what where the results?_**
+**_What is the main purpose of this page (sometimes this is not as obvious as you would think).  What is that on/off switch on the rt side? How do we want it to work/look on mobile?  Will mobile have the same functionality?  Is the main center image one static image or is it broken up into separate images (each item of furniture is a separate image?)  What does the data look like that I will be loading in? What do you want it to look like when any button is clicked, or when another message is sent/received? After something has been rated, should there be some indication that it has been done (like the hover icon turns lighter or something)? Have you done any User Testing on this page, if so what where the results?_**
 
 * What seems like, potentially, the biggest unknown?
 **_What is that "on/off" switch in the "your living room concept" div on the right side ?? What is the proposed functionality?_**
