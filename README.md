@@ -47,7 +47,7 @@ Write a function that takes two arrays full of objects and outputs a list of the
 
 You can assume that the IDs of the objects will be persistent, but other values won't be. Don't assume that "name" and "quantity" are the only values to diff.
 
--- **I HAVE NOT STARTED THIS** --
+-- **_I HAVE NOT STARTED THIS_** --
 
 WILL FIND HERE WHEN COMPLETE: https://repl.it/@tara_mason/getDifferenceInObjects
 
