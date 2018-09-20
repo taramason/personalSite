@@ -149,3 +149,22 @@ width: 100vw;
 .clientTitle::after{
   content: ":";
 }
+
+@media only screen and (max-width: 870px) {
+  .clientStyleDeets div {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .BtmDiv {
+    flex-direction: column;
+    align-items: center;
+  }
+  .rtBtm {
+    width: 70%;
+  }
+  .ltBtm {
+    width: 70%;
+  }
+}
