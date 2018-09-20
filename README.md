@@ -19,11 +19,10 @@ Set up a webpack project to both serve a React site locally for development and 
 
 * Source maps **DONE?**
 
-* Feel free to copy and paste from any previous webpack configs you've done, but please do not use a pre-built template like create-react-app or react-slingshot.
-**I've never done this before so this is where the majority of my time was spent. I don't like putting things together or copy & pasting without understanding how they work. Happy to have learned how everything is set up, this has made me much more confident in my React abilities**
+* Feel free to copy and paste from any previous webpack configs you've done, but please do not use a pre-built template like create-react-app or react-slingshot.  **I've never done this before so this is where the majority of my time was spent. I don't like putting things together or copy & pasting without understanding how they work. Happy to have learned how everything is set up, this has made me much more confident in my React abilities**
 
 
-* Build the following page design to match the responsive.png mock-up as closely as you can. Use the React/webpack project set up in the last question. We don't have a mobile mock for this page, but be sure to build it mobile-first and make your own decisions about how to display the layout at that size. **90% DONE, Need to make responsive. The Surveyor Fonts are not displaying the way they should (its a subtle but important difference), not sure why, given more time I would import the ttf's and convert them **  
+* Build the following page design to match the responsive.png mock-up as closely as you can. Use the React/webpack project set up in the last question. We don't have a mobile mock for this page, but be sure to build it mobile-first and make your own decisions about how to display the layout at that size.  **I am 90% DONE, Need to make responsive. The Surveyor Fonts are not displaying the way they should (its a subtle but important difference), not sure why, given more time I would import the ttf's and convert them**  
 
 * The page shown on the mock is the max-width - if a user's screen is wider than 1150px, the page should be the size shown and centered in the browser.
 
@@ -42,13 +41,13 @@ Answer the following questions:
 * What changes would you recommend making to make this interface work well on mobile?
 **Have each furniture item stack down the page (instead of just having a large image that can be zoomed in). **
 
-**NEXT**
+****
 
 Write a function that takes two arrays full of objects and outputs a list of their changes, as seen below.
 
 You can assume that the IDs of the objects will be persistent, but other values won't be. Don't assume that "name" and "quantity" are the only values to diff.
 
-**I HAVE NOT STARTED THIS**
+-- **I HAVE NOT STARTED THIS** --
 
 WILL FIND HERE WHEN COMPLETE: https://repl.it/@tara_mason/getDifferenceInObjects
 
