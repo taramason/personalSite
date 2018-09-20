@@ -22,7 +22,7 @@ The development environment should include:
 * Feel free to copy and paste from any previous webpack configs you've done, but please do not use a pre-built template like create-react-app or react-slingshot.  **_I've never done this before so this is where the majority of my time was spent. I don't like putting things together or copy & pasting without understanding how they work. Happy to have learned how everything is set up, this has made me much more confident in my React abilities_**
 
 
-* Build the following page design to match the responsive.png mock-up as closely as you can. Use the React/webpack project set up in the last question. We don't have a mobile mock for this page, but be sure to build it mobile-first and make your own decisions about how to display the layout at that size.  **_I am 90% DONE, Need to make responsive. The Surveyor Fonts are not displaying the way they should (its a subtle but important difference), not sure why, given more time I would import the ttf's and convert them_**  
+* Build the following page design to match the responsive.png mock-up as closely as you can. Use the React/webpack project set up in the last question. We don't have a mobile mock for this page, but be sure to build it mobile-first and make your own decisions about how to display the layout at that size.  **_I am 90% DONE, Need to make responsive. The Surveyor Fonts are not displaying the way they should (its a subtle but important difference), I'm not sure why, haven't had a chance to dig deeper, given more time I would try to import the ttf's and convert them_**  
 
 * The page shown on the mock is the max-width - if a user's screen is wider than 1150px, the page should be the size shown and centered in the browser.
 
