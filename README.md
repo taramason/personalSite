@@ -9,7 +9,7 @@ The development environment should include:
 
 * Proxying of asset requests to a different URL (you do not need to implement a dev server to respond to proxied requests, if they 404 that will be good enough). **_NEED TO IMPLEMENT_**
 
-* Your production build config should include:
+Your production build config should include:
 
 * Dead code elimination **_DONE_**
 
