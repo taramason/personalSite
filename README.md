@@ -56,7 +56,7 @@ Answer the following questions:
 **_What is that "on/off" switch in the "your living room concept" div on the right side?? What is the proposed functionality?_**
 
 ### What changes would you recommend making to make this interface work well on mobile?
-**_I would recommend having each furniture item stack down the page (instead of just having a large image that can be zoomed in). Everything else is pretty straightforward and seems like it will resize/stack fairly easily. Any other recommendations would be from the app level (i.e. easy ways to acces your account, favorite items, etc)_**
+**_I would recommend having each furniture item stack down the page (instead of just having a large image that can be zoomed in). Everything else is pretty straightforward and seems like it will resize/stack fairly easily. Any other recommendations would be from the app level (i.e. easy ways to access your account, favorite items, etc)_**
 
 ****
 
