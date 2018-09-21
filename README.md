@@ -3,23 +3,23 @@
 
 The development environment should include:
 
-* Support for CSS Modules **_DONE_**
+* Support for CSS Modules **_DONE_** 
 
-* Hot Module Reloading **_DONE_**
+* Hot Module Reloading **_DONE_** Hot loader enabled in webpack-dev-server  
 
 * Proxying of asset requests to a different URL (you do not need to implement a dev server to respond to proxied requests, if they 404 that will be good enough). **_NEED TO IMPLEMENT_**
 
 Your production build config should include:
 
-* Dead code elimination **_DONE_**
+* Dead code elimination **_DONE_**  package.json enables "tree shaking" in prod  
 
-* Any necessary polyfills **_DONE_**
+* Any necessary polyfills **_DONE_**  Lodash installed, I don't think I used it  
 
-* Code minification **_DONE_**
+* Code minification **_DONE_** Webpack v4+ will minify your code by default in production mode.  
 
-* Source maps **_DONE?_**
+* Source maps **_DONE? NEED TO CHECK_**  
 
-* Feel free to copy and paste from any previous webpack configs you've done, but please do not use a pre-built template like create-react-app or react-slingshot.  **_I've never done this before so this is where the majority of my time was spent. I don't like putting things together or copy & pasting without understanding how they work._**
+* Feel free to copy and paste from any previous webpack configs you've done, but please do not use a pre-built template like create-react-app or react-slingshot.  **_I've never done this before (only create-react-app) so this is where the majority of my time was spent. I don't like putting things together or copy & pasting without understanding how they work._**
 
 
 * Build the following page design to match the responsive.png mock-up as closely as you can. Use the React/webpack project set up in the last question. We don't have a mobile mock for this page, but be sure to build it mobile-first and make your own decisions about how to display the layout at that size.  **_DONE_**  
