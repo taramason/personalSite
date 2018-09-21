@@ -5,6 +5,7 @@ body {
   background-color: #f8f8f8;
   color: #1C2233;
 }
+
 html {
 width: 100vw;
 }
@@ -33,7 +34,7 @@ width: 100vw;
 
 .headerH2Top {
   text-align: center;
-  font-family: Surveyor_Webfont;
+  font-family: Surveyor SSM A;
   font-weight: 600;
   font-size: 26px;
   margin: 0;
@@ -71,7 +72,7 @@ width: 100vw;
 }
 
 .stylesList {
-  font-family: Surveyor_Webfont;
+  font-family: Surveyor SSM A;
   letter-spacing: .8px;
   column-count: 2;
   padding-left: 0;
@@ -86,18 +87,12 @@ width: 100vw;
   text-transform: capitalize;
   padding: 2px;
 }
-.stylesList li:before {
-  /* font-family: Material+Icons;
-  content: url("./checkmark.svg"); */
-  /* content: "• "; */
-  /* TODO: turn into a checkmark */
-}
 
 .ltBtm {
   width: 50%;
 }
 .blurbText {
-  font-family: Surveyor_Webfont;
+  font-family: Surveyor SSM A;
   font-size: 26px;
   letter-spacing: -.37px;
   line-height: 36px;
@@ -133,7 +128,7 @@ width: 100vw;
 .clientStyleDeets dd {
   margin:0;
   font-size: 13px;
-  font-family: Surveyor_Webfont;
+  font-family: Surveyor SSM A;
 }
 
 .clientStyleDeets dt {
