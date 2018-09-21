@@ -46,7 +46,7 @@ Answer the following questions:
 * **_Is there a shopping cart somewhere that will indicate it will be added to the cart?_**   
 * **_What does the data look like that I will be loading in?_**   
 * **_Have you done any User Testing on this page, if so what where the results?_**  
-* **_Will I need to inject any specific analytics tracking to this page's code?  
+* **_Will I need to inject any specific analytics tracking to this page's code?_**  
 * **_What is the user doing before and after this page?_**  
 
 ### What seems like, potentially, the biggest unknown?  
