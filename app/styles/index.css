@@ -151,8 +151,8 @@ width: 100vw;
 }
 
 @media only screen and (max-width: 870px) {
-  .clientStyleDeets div {
-    padding-left: 20px;
+  .rtBtm {
+    padding: 50px 40px;
   }
 }
 
@@ -161,10 +161,61 @@ width: 100vw;
     flex-direction: column;
     align-items: center;
   }
+
   .rtBtm {
     width: 70%;
+    padding: 50px 60px;
   }
+
   .ltBtm {
     width: 70%;
+    padding: 30px 20px;
+  }
+
+  .stylesDiv {
+    padding: 0 50px;
+    width: 100%;
+  }
+
+  .stylesList li {
+    width: 100%;
+  }
+
+  .clientStyleDeets dd {
+    padding-bottom: 16px;
+    padding-left: 0;
+  }
+
+  .clientStyleDeets div {
+  }
+
+  .blurbText  {
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 712px) {
+  .rtBtm {
+    padding: 40px 30px;
+  }
+
+  .stylesDiv {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .stylesDiv {
+    padding: 20px;
+  }
+
+  .rtBtm {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .clientStyleDeets {
+    display: inline;
   }
 }
