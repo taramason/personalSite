@@ -1,5 +1,5 @@
 # havenlyProj
-Set up a webpack project to both serve a React site locally for development and build a bundle for production.
+## Set up a webpack project to both serve a React site locally for development and build a bundle for production.
 
 The development environment should include:
 
@@ -19,7 +19,7 @@ Your production build config should include:
 
 * Source maps **_DONE?_**
 
-* Feel free to copy and paste from any previous webpack configs you've done, but please do not use a pre-built template like create-react-app or react-slingshot.  **_I've never done this before so this is where the majority of my time was spent. I don't like putting things together or copy & pasting without understanding how they work. Happy to have learned how everything is set up, this has made me much more confident in my React abilities_**
+* Feel free to copy and paste from any previous webpack configs you've done, but please do not use a pre-built template like create-react-app or react-slingshot.  **_I've never done this before so this is where the majority of my time was spent. I don't like putting things together or copy & pasting without understanding how they work. Happy to have learned how everything is set up, this has made me much more confident in my React abilities._**
 
 
 * Build the following page design to match the responsive.png mock-up as closely as you can. Use the React/webpack project set up in the last question. We don't have a mobile mock for this page, but be sure to build it mobile-first and make your own decisions about how to display the layout at that size.  **_The Surveyor Fonts are not displaying the way they should (its an important difference to note), I'm not sure why, I haven't had a chance to dig deeper, given more time I would try to import the ttf's and convert them_**  
@@ -32,7 +32,7 @@ Take a look at the attached mockups, and assume you're being assigned to build t
 
 Answer the following questions:
 
-* What are the most important questions you have about the mocks and how they should work?  
+## What are the most important questions you have about the mocks and how they should work?  
 **_VERY IMPORTANT:_** 
 * **_What is the main purpose of this page (something I always like to ask, sometimes this is not as obvious as you would think)._**      
 * **_What is that on/off switch on the rt. side??_**  
@@ -42,21 +42,21 @@ Answer the following questions:
 * **_What do you want it to look like when any button is clicked, or when another message is sent/received?_**  
 * **_After a furniture piece has been rated, or added to the cart, should there be some indication that it has been done (like the hover icon turns lighter or it turns into the smiley or frowny face)?_**  
 
-**_SLIGHTLY LESS IMPERITIVE:_**  
+**_SLIGHTLY LESS IMPORTANT/I MIGHT ALREADY KNOW IF I WORK THERE:_**  
  
 * **_Is there a shopping cart somewhere that will indicate it will be added to the cart?_**   
 * **_Have you done any User Testing on this page, if so what where the results?_**  
 * **_Will I need to inject any specific analytics tracking to this page's code? What is the user doing before and after this page?_**  
 
-* What seems like, potentially, the biggest unknown?
+### What seems like, potentially, the biggest unknown?  
 **_What is that "on/off" switch in the "your living room concept" div on the right side?? What is the proposed functionality?_**
 
-* What changes would you recommend making to make this interface work well on mobile?
+## What changes would you recommend making to make this interface work well on mobile?
 **_Have each furniture item stack down the page (instead of just having a large image that can be zoomed in). Everything else is pretty straightforward and seems like it will resize fairly easily. Any other recommendations would be from the app level (i.e. how to acces your account, favorite items, etc)_**
 
 ****
 
-Write a function that takes two arrays full of objects and outputs a list of their changes, as seen below.
+## Write a function that takes two arrays full of objects and outputs a list of their changes, as seen below.
 
 You can assume that the IDs of the objects will be persistent, but other values won't be. Don't assume that "name" and "quantity" are the only values to diff.
 
