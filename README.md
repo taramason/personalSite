@@ -19,7 +19,7 @@ Your production build config should include:
 
 * Source maps **_DONE? NEED TO CHECK_**  
 
-* Feel free to copy and paste from any previous webpack configs you've done, but please do not use a pre-built template like create-react-app or react-slingshot.  **_I've never done this before so this is where the majority of my time was spent. I don't like putting things together or copy & pasting without understanding how they work._**
+* Feel free to copy and paste from any previous webpack configs you've done, but please do not use a pre-built template like create-react-app or react-slingshot.  **_I've never done this before (only create-react-app) so this is where the majority of my time was spent. I don't like putting things together or copy & pasting without understanding how they work._**
 
 
 * Build the following page design to match the responsive.png mock-up as closely as you can. Use the React/webpack project set up in the last question. We don't have a mobile mock for this page, but be sure to build it mobile-first and make your own decisions about how to display the layout at that size.  **_DONE_**  
