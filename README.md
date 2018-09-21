@@ -1,6 +1,6 @@
 # havenlyProj
 **NOTES:**
-**This was built and tested for Chrome. While it should perform well on other browsers, it has not been tested. Flexbox has been implemented in a few places, which may create issues in IE, but has been used sparingly**
+**This was built and tested for Chrome. While it should perform well on other browsers, it has not been tested. Flexbox has been implemented in a few places, which may create issues in IE, but has been used sparingly.**
 
 ### Set up a webpack project to both serve a React site locally for development and build a bundle for production.
 
