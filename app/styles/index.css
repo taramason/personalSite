@@ -10,8 +10,7 @@ width: 100vw;
 }
 
 .main {
-  max-width: 900px;
-  /* TODO: change to 1150? */
+  max-width: 1150px;
   margin: auto;
 }
 
@@ -42,9 +41,9 @@ width: 100vw;
 }
 
 .imgContainer {
-  max-width: 900px;
-  /* TODO: change to 1150 */
+  max-width: 1150px;
   display:inline-block;
+  width: 100%;
   height:;
   margin:auto;
 }
@@ -52,8 +51,7 @@ width: 100vw;
 .roomImg {
   margin-top: -3%;
   width: 100%;
-  max-width: 900px;
-  /* TODO: change to 1150 */
+  max-width: 1150px;
   z-index: -1;
 }
 
