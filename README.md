@@ -19,10 +19,10 @@ Your production build config should include:
 
 * Source maps **_DONE?_**
 
-* Feel free to copy and paste from any previous webpack configs you've done, but please do not use a pre-built template like create-react-app or react-slingshot.  **_I've never done this before so this is where the majority of my time was spent. I don't like putting things together or copy & pasting without understanding how they work. Happy to have learned how everything is set up, this has made me much more confident in my React abilities._**
+* Feel free to copy and paste from any previous webpack configs you've done, but please do not use a pre-built template like create-react-app or react-slingshot.  **_I've never done this before so this is where the majority of my time was spent. I don't like putting things together or copy & pasting without understanding how they work. I am happy to have learned how everything is set up, this has made me much more confident in my React abilities._**
 
 
-* Build the following page design to match the responsive.png mock-up as closely as you can. Use the React/webpack project set up in the last question. We don't have a mobile mock for this page, but be sure to build it mobile-first and make your own decisions about how to display the layout at that size.  **_The Surveyor Fonts are not displaying the way they should (its an important difference to note), I'm not sure why, I haven't had a chance to dig deeper, given more time I would try to import the ttf's and convert them_**  
+* Build the following page design to match the responsive.png mock-up as closely as you can. Use the React/webpack project set up in the last question. We don't have a mobile mock for this page, but be sure to build it mobile-first and make your own decisions about how to display the layout at that size.  **_The Surveyor Fonts are not displaying the way they should (its an important difference to note), I'm not sure why yet... I haven't had a chance to dig deeper, given more time I would try to import the ttf's and convert them._**  
 
 * The page shown on the mock is the max-width - if a user's screen is wider than 1150px, the page should be the size shown and centered in the browser. **_DONE_**
 
@@ -38,13 +38,13 @@ Answer the following questions:
 * **_What is that on/off switch on the rt. side??_**  
 * **_How should the page work/look on mobile?  Will mobile have the same functionality?_**   
 * **_Is the main center image one static image or is it broken up into separate images (each item of furniture is a separate image?)_**    
-* **_What does the data look like that I will be loading in?_**   
 * **_What do you want it to look like when any button is clicked, or when another message is sent/received?_**  
 * **_After a furniture piece has been rated, or added to the cart, should there be some indication that it has been done (like the hover icon turns lighter or it turns into the smiley or frowny face)?_**  
 
 **_SLIGHTLY LESS IMPORTANT/I MIGHT ALREADY KNOW IF I WORK THERE:_**  
  
 * **_Is there a shopping cart somewhere that will indicate it will be added to the cart?_**   
+* **_What does the data look like that I will be loading in?_**   
 * **_Have you done any User Testing on this page, if so what where the results?_**  
 * **_Will I need to inject any specific analytics tracking to this page's code? What is the user doing before and after this page?_**  
 
@@ -52,7 +52,7 @@ Answer the following questions:
 **_What is that "on/off" switch in the "your living room concept" div on the right side?? What is the proposed functionality?_**
 
 ### What changes would you recommend making to make this interface work well on mobile?
-**_Have each furniture item stack down the page (instead of just having a large image that can be zoomed in). Everything else is pretty straightforward and seems like it will resize fairly easily. Any other recommendations would be from the app level (i.e. how to acces your account, favorite items, etc)_**
+**_I would recommend having each furniture item stack down the page (instead of just having a large image that can be zoomed in). Everything else is pretty straightforward and seems like it will resize/stack fairly easily. Any other recommendations would be from the app level (i.e. easy ways to acces your account, favorite items, etc)_**
 
 ****
 
