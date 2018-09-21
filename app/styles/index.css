@@ -36,7 +36,7 @@ width: 100vw;
   text-align: center;
   font-family: Surveyor SSM A;
   font-weight: 600;
-  font-size: 26px;
+  font-size: 28px;
   margin: 0;
   letter-spacing: .8px;
 }
@@ -60,6 +60,7 @@ width: 100vw;
   display: flex;
   margin-top: 20px;
 }
+
 .stylesDiv {
   padding-top: 10px;
 }
@@ -91,9 +92,10 @@ width: 100vw;
 .ltBtm {
   width: 50%;
 }
+
 .blurbText {
   font-family: Surveyor SSM A;
-  font-size: 26px;
+  font-size: 24px;
   letter-spacing: -.37px;
   line-height: 36px;
   padding-right: 20px;
@@ -186,6 +188,7 @@ width: 100vw;
     padding-bottom: 20px;
   }
 }
+
 @media only screen and (max-width: 712px) {
   .rtBtm {
     padding: 40px 30px;
