@@ -19,7 +19,7 @@ Your production build config should include:
 
 * Source maps **_DONE?_**
 
-* Feel free to copy and paste from any previous webpack configs you've done, but please do not use a pre-built template like create-react-app or react-slingshot.  **_I've never done this before so this is where the majority of my time was spent. I don't like putting things together or copy & pasting without understanding how they work. I am happy to have learned how everything is set up, this has made me much more confident in my React abilities._**
+* Feel free to copy and paste from any previous webpack configs you've done, but please do not use a pre-built template like create-react-app or react-slingshot.  **_I've never done this before so this is where the majority of my time was spent. I don't like putting things together or copy & pasting without understanding how they work._**
 
 
 * Build the following page design to match the responsive.png mock-up as closely as you can. Use the React/webpack project set up in the last question. We don't have a mobile mock for this page, but be sure to build it mobile-first and make your own decisions about how to display the layout at that size.  **_The Surveyor Fonts are not displaying the way they should (its an important difference to note), I'm not sure why yet... I haven't had a chance to dig deeper, given more time I would try to import the ttf's and convert them._**  
