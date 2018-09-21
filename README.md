@@ -1,5 +1,5 @@
 # havenlyProj
-## Set up a webpack project to both serve a React site locally for development and build a bundle for production.
+### Set up a webpack project to both serve a React site locally for development and build a bundle for production.
 
 The development environment should include:
 
@@ -32,7 +32,7 @@ Take a look at the attached mockups, and assume you're being assigned to build t
 
 Answer the following questions:
 
-## What are the most important questions you have about the mocks and how they should work?  
+### What are the most important questions you have about the mocks and how they should work?  
 **_VERY IMPORTANT:_** 
 * **_What is the main purpose of this page (something I always like to ask, sometimes this is not as obvious as you would think)._**      
 * **_What is that on/off switch on the rt. side??_**  
@@ -51,12 +51,12 @@ Answer the following questions:
 ### What seems like, potentially, the biggest unknown?  
 **_What is that "on/off" switch in the "your living room concept" div on the right side?? What is the proposed functionality?_**
 
-## What changes would you recommend making to make this interface work well on mobile?
+### What changes would you recommend making to make this interface work well on mobile?
 **_Have each furniture item stack down the page (instead of just having a large image that can be zoomed in). Everything else is pretty straightforward and seems like it will resize fairly easily. Any other recommendations would be from the app level (i.e. how to acces your account, favorite items, etc)_**
 
 ****
 
-## Write a function that takes two arrays full of objects and outputs a list of their changes, as seen below.
+### Write a function that takes two arrays full of objects and outputs a list of their changes, as seen below.
 
 You can assume that the IDs of the objects will be persistent, but other values won't be. Don't assume that "name" and "quantity" are the only values to diff.
 
