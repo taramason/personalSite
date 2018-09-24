@@ -16,7 +16,6 @@ class App extends React.Component {
         <Top />
         <Img />
         <BtmHalf />
-        <CodeChallenge />
       </div>
     )
   }
