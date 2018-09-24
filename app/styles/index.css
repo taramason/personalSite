@@ -7,12 +7,12 @@ body {
 }
 
 html {
-width: 100vw;
+  width: 100vw;
 }
 
 .main {
   max-width: 1150px;
-  margin: 40px;
+  margin: auto;
 }
 
 .headerContainer {
@@ -143,6 +143,12 @@ width: 100vw;
 
 .clientTitle::after{
   content: ":";
+}
+
+@media only screen and (max-width: 1190px) {
+  .main {
+    margin: 20px !important;
+  }
 }
 
 @media only screen and (max-width: 870px) {
