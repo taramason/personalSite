@@ -1,8 +1,6 @@
 var React = require('react');
-var Top = require('./top');
-var Img = require('./img');
-var BtmHalf = require('./btmHalf');
-var CodeChallenge = require('./codeChallenge');
+// var Top = require('./nav');
+
 var style = require ('../styles/index.css');
 
 
@@ -13,9 +11,7 @@ class App extends React.Component {
 
     return (
       <div className={style.main}>
-        <Top />
-        <Img />
-        <BtmHalf />
+
       </div>
     )
   }
