@@ -6,7 +6,7 @@
 
 ### Set up a webpack project to both serve a React site locally for development and build a bundle for production.
 
-The development environment should include:
+Development environment includes:
 
 * Support for CSS Modules 
 
@@ -14,7 +14,7 @@ The development environment should include:
 
 * Proxying of asset requests to a different URL (you do not need to implement a dev server to respond to proxied requests, if they 404 that will be good enough). **_NEED TO IMPLEMENT_**
 
-Your production build config should include:
+Production build config includes:
 
 * Dead code elimination, package.json enables "tree shaking" in prod  
 
