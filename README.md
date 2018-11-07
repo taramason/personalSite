@@ -1,10 +1,10 @@
-# Starter React
+# Starter Template React
 **NOTES:**
 
 * **_npm install_** to install all dependencies
 * **_npm run start:dev_**
 
-### Set up a webpack project to both serve a React site locally for development and build a bundle for production.
+### This is a webpack project to both serve a React site locally for development and to build a bundle for production.
 
 Development environment includes:
 
