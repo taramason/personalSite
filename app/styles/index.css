@@ -34,19 +34,21 @@ font-weight: 100;
 font-style: normal;
 */
 	
-body {
+html {
+  width: 100vw;
+  font-size: 18px;
   font-family: sofia-pro, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-/*  background-color: #f8f8f8;*/
-  color: #000000;
-  margin: 0;
 }
 
-html {
-  width: 100vw;
+body {
+  color: #000000;
+  margin: 0;
+  line-height: 1.5rem;
+  letter-spacing: .01rem;
 }
 
 a:link, a:visited {
@@ -56,6 +58,10 @@ a:link, a:visited {
 
 a:hover {
 	color: #ca2e55;
+}
+
+h2 {
+	font-size: 1.5rem;
 }
 
 .main {
@@ -137,9 +143,40 @@ a:hover {
 	margin: 60px auto 60px auto;
 }
 
-i {
-	position:relative;
+.scroll > i {
+	font-size: 60px;
+}
+
+.aboutMe > p > i {
+	position: relative;
 	top:5px;
+	color: #ca2e55;
+	animation: animateHeart 3s infinite;
+}
+	@keyframes animateHeart {
+  0% {
+    transform: scale(0.8);
+  }
+  5% {
+    transform: scale(0.9);
+  }
+  10% {
+    transform: scale(0.8);
+  }
+  15% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+.middleContainer {
+  width: 100vw;
+  background-color: #E8E8E8;
 }
 
 .middle {
@@ -157,26 +194,71 @@ i {
 	max-width: 600px;
 	align-self: flex-end;
 	margin-right: 20px;
-	padding: 0 30px 10px 20px;
+	padding: 0 30px 10px 50px;
 }
+
+.eachPosition{
+  margin: 2rem 0;
+}   
 
 .resume > h2 {
 	margin: 10px 0 10px;
+  color: white;
+  background-color: black;
+  padding: 0 0 8px 5px;
 }
 
-.resume > h3 {
-	margin: 0 0 0 22px;
+.resume > div > h3 {
 	font-weight: 300;
+  margin-bottom: .0;
 }
 
-.resume > p {
-	margin: 0 0 0 22px;
-	font-weight: 300;
-	font-style: normal;
-}
-
-.resume > ul {
-	list-style-type: circle;
-	margin: 0;
+.resume > div > ul {
+	margin: 0 0 1rem 0;
 	padding-left: 20px;
+  list-style-type: square;
+}
+
+.resume > div > ul > li {
+  font-weight: 300;
+  letter-spacing: .01rem;
+}
+
+.resume > div > .date {
+	font-size:.9rem;
+	padding-left: 1rem;
+  margin-left: -240px;
+  margin-bottom: -46px;
+}
+
+.resume > div > p {
+    font-size:.9rem;
+    margin: .4rem 0;
+    line-height: 1.3rem;
+}
+
+.resume > div > p.schoolDescription {
+    font-size:1rem;
+    margin: .4rem 0;
+    line-height: 1.3rem;
+    padding-top: 4px;
+}
+
+.position {
+  margin-bottom: 0;
+  font-weight: 300;
+  margin: 0 0 0 22px;
+  font-size:.9rem;
+  color: #717070;
+}
+
+.resume > div > .technologies {
+  margin-bottom: .4rem;
+  font-weight: 300;
+  color: #717070;
+}
+
+.resume > div > .date {
+  margin-top: 0;
+  color: #717070;
 }
