@@ -2,6 +2,8 @@ var React = require('react');
 var style = require ('../styles/index.css');
 var Experience = require('./experience');
 var School = require('./school');
+var Interests = require('./interests');
+
 
 
 
@@ -21,11 +23,11 @@ class TheMiddle extends React.Component {
           "Leading UX strategy initiatives for side projects.",
           "Maintain existing website in Javascript and C#/.net MVC, create internal apps in any preferred technology."
         ],
-        technologies: "C# / .netASP MVC / Java / Javascript / CSS, SASS & Compass / Visual Studio / Version Control / Other tech as desired (React, Adobe XD, Adobe Suite)"
+        technologies: "C# / .netASP MVC / Java / JavaScript / CSS, SASS & Compass / Visual Studio / Version Control / Other tech as desired (React, Adobe XD, Adobe Suite)"
       },
       {
         company: "Excelsior Solutions",
-        position: "Front End / Javascript Developer",
+        position: "Front End / JavaScript Developer",
         date: "April 2017 / July 2017",
         duties: [
           "Created mockups for entire website redesign.",
@@ -62,7 +64,7 @@ class TheMiddle extends React.Component {
         major: "Software Engineering Immersive",
         date: "April 2016 / April 2017",
         description: "\"An intense hands-on program that teaches Full Stack Development using a schedule of three sets of three weeks of instruction and one week of firsthand practice building and deploying projects in an Agile environment.\"",
-        technologies: "NEAP stack (Node.js / Express / AngularJS / PostgreSQL) with Git & Github / Bootstrap or Materialize / Firebase / Command Line / Atom / Other self-guided tech as desired (React, Redux, Adobe XD, Python)"
+        technologies: "JavaScript, NEAP stack (Node.js / Express / AngularJS / PostgreSQL) with Git & Github / Bootstrap or Materialize / Firebase / Command Line / Atom / Other self-guided tech as desired (React, Redux, Adobe XD, Python)"
       },
       {
         schoolName: "The Art Institute",
@@ -73,7 +75,11 @@ class TheMiddle extends React.Component {
       }
     ];
 
-    const i
+    const interests = [
+      {
+        description: "I love to learn. I am extremely interested in learning the in's and outs of this entire business. If I could, I would go back to school and get a degree in Business, Computer Science, and Human Computer Interaction. Since that doesn't seem very feasable right now, I am happily working my way through UX Design and Product Design courses, applying the information as I can practically, reading a ton on modern marketing techniques, while teaching myself mid- to advanced-level React. Some day, I would love to move into Product Management. I love creating and being a part of watching products grow!"
+      }
+    ];
 
 //pass in as props (divide out experience, education, etc.)
     return (
@@ -81,6 +87,7 @@ class TheMiddle extends React.Component {
         <div className={style.middle}>
           <Experience jobs={jobs} />
           <School education={education} />
+          <Interests interests={interests} />
         </div>
       </div>
     )
