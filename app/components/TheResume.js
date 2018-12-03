@@ -8,7 +8,7 @@ var Interests = require('./interests');
 
 
 
-class TheMiddle extends React.Component {
+class Index extends React.Component {
   render() {
   	const jobs = [
       {
@@ -77,7 +77,7 @@ class TheMiddle extends React.Component {
 
     const interests = [
       {
-        description: "I love to learn. I am extremely interested in learning the in's and outs of this entire business. If I could, I would go back to school and get a degree in Business, Computer Science, and Human Computer Interaction. Since that doesn't seem very feasable right now, I am happily working my way through UX Design and Product Design courses, applying the information as I can practically, reading a ton on modern marketing techniques, while teaching myself mid- to advanced-level React. Some day, I would love to move into Product Management. I love creating and being a part of watching products grow!"
+        description: "I love to learn. I am extremely interested in learning the in's and outs of this entire business. If I could, I would go back to school and get a degree in Business, Computer Science, and Human Computer Interaction. Since that doesn't seem very feasable right now, I am happily working my way through UX Design and Product Design courses, applying the information as I can practically, reading a ton on modern marketing techniques, while teaching myself mid- to advanced-level React. Some day, I would love to move into Product Management. I love creating and being a part of building great products!"
       }
     ];
 
@@ -94,4 +94,4 @@ class TheMiddle extends React.Component {
   }
 }
 
-module.exports = TheMiddle;
+module.exports = Index;
