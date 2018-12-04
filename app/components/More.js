@@ -8,7 +8,7 @@ class More extends React.Component {
     return (
         <div className={style.topMain}>
           <div className={style.topContent}>
-          MORE
+            COMING SOON!
           </div>
         </div>
     )

@@ -7,7 +7,8 @@ class Contact extends React.Component {
     return (
       <div className={style.topMain}>
         <div className={style.topContent}>
-        CONTACT
+          <p>Currently open to new opportunities! Lets chat.</p>
+          <a href="mailto:tara.mason@gmail.com">tara.mason@gmail.com</a>
         </div>
       </div>
     )

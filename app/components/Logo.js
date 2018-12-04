@@ -9,10 +9,10 @@ class Logo extends React.Component {
 
     return (
       <div className={style.logoDiv}>
-        <a href="">
-          <span className={style.logoFirst}>Tara</span>
-          <span className={style.logoLast}>Mason</span>
-        </a>
+        
+          <a href="" className={style.logoFirst}>Tara</a>
+          <a href="" className={style.logoLast}>Mason</a>
+        
       </div> 
     )
   }

@@ -73,6 +73,7 @@ h2 {
   color: #ca2e55;
   font-weight: bold;
 }
+
 .main {
 	width:100vw;
   max-width: 1150px;
@@ -172,12 +173,13 @@ h2 {
   align-items: flex-end;
 }
 
-.aboutMe > p > i {
+.topContent > p > i {
 	position: relative;
 	top:5px;
 	color: #ca2e55;
 	animation: animateHeart 3s infinite;
 }
+
 	@keyframes animateHeart {
   0% {
     transform: scale(0.8);
