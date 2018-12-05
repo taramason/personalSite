@@ -3,7 +3,8 @@ var style = require ('../styles/index.css');
 var Experience = require('./experience');
 var School = require('./school');
 var Interests = require('./interests');
-
+//add PropTypes, check for string. https://learn.tylermcginnis.com/courses/50507/lectures/2466607
+//https://reactjs.org/docs/typechecking-with-proptypes.html
 
 
 
