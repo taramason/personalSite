@@ -15,7 +15,6 @@ var NavLink = require('react-router-dom').NavLink;
     return (
       <div className={style.main}>
         <div className={style.navBar}>
-          
         	<div className={style.nav}>
             <NavLink exact activeClassName='active' to='/' className={style.navItem}>
                 home

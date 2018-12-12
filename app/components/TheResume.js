@@ -99,7 +99,7 @@ class Index extends React.Component {
 
 //pass in as props (divide out experience, education, etc.)
     return (
-      <div className={style.middleContainer}>
+      <div id="theResume" className={style.middleContainer}>
         <div className={style.middle}>
           <Experience jobs={jobs} />
           <School education={education} />

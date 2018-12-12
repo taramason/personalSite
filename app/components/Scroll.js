@@ -9,9 +9,11 @@ class Scroll extends React.Component {
 
     return (
       <div className={style.scroll}>
-        <i class="material-icons">
-          expand_more
-        </i>
+        <a href='#theResume'>
+          <i class="material-icons">
+            expand_more
+          </i>
+        </a>
       </div>
     )
   }
