@@ -3,6 +3,7 @@ var style = require ('../styles/index.css');
 var Experience = require('./experience');
 var School = require('./school');
 var Interests = require('./interests');
+var Linkify = require('react-linkify');
 //add PropTypes, check for string. https://learn.tylermcginnis.com/courses/50507/lectures/2466607
 //https://reactjs.org/docs/typechecking-with-proptypes.html
 
@@ -11,18 +12,19 @@ var Interests = require('./interests');
 
 class Index extends React.Component {
   render() {
+
   	const jobs = [
       {
         company: "CSU Online",
         position: "Full Stack Developer",
         date: "June 2017 / present",
-        duties: [
-          "Program web-based applications based on mockups using a variety of tech stacks.",
-          "Complete JIRA tickets as needed to fix bugs on legacy software.",
-          "Create user stories, wireframes, for website redesign and Identify gaps in current systems and create innovative technical solutions & inititaives to drive efficiency and positive change.",
-          "Personally leading the adoption of User Testing and implementation.",
-          "Leading UX strategy initiatives for side projects.",
-          "Maintain existing website in Javascript and C#/.net MVC, create internal apps in any preferred technology."
+        dailyDuties: "Work with a small team of developers to troubleshoot and solve issues on legacy system. Maintain existing website, create internal apps in preferred technologies to help with productivity & performance. Create user stories & wireframes for OSHER website redesign, develop front-end from mockups.",
+        keyAccomplishments: [
+          "Worked across departments to identify gaps in current systems and problem-solve solutions in processes and product.",
+          "Persuaded management to allow department to hold monthly hackathons to promote innovation.",
+          "Created a team whose purpose is to spark creativity.",
+          "Created dashboard to display departments Key Performance Indicators (KPI’s)",
+          "Took the initiative to push for adoption of User Testing to analyze & improve existing products."
         ],
         technologies: "C# / .netASP MVC / Java / JavaScript / CSS, SASS & Compass / Visual Studio / Version Control / Other tech as desired (React, Adobe XD, Adobe Suite)"
       },
@@ -30,31 +32,44 @@ class Index extends React.Component {
         company: "Excelsior Solutions",
         position: "Front End / JavaScript Developer",
         date: "April 2017 / July 2017",
-        duties: [
-          "Created mockups for entire website redesign.",
-          "Completed Jira tickets for features & bug fixes as needed.",
-          "Worked remotely, contract position."
+        dailyDuties: "Completed Jira tickets for features & troubleshoot bug fixes on legacy site code as needed. Worked 90% remotely. ",
+        keyAccomplishments: [
+          "Designed mockups for site update using existing brand look and feel.",
+          "Website re-design for a billion-dollar business."
         ],
         technologies: "Javascript / CSS & SASS / Jira / Github / Adobe XD"
+      },
+      {
+        company: "Tara Creative",
+        position: "Owner",
+        date: "Oct 2018 / Present",
+        dailyDuties: "Web Design & Development, Interior Design, Graphic Design, art, flipping, and Real Estate (Current Colorado Real Estate License held). Relevent experience only below.",
+        keyAccomplishments: [
+          "Developed & executed complete redesign of local business website.",
+          "Analyzed google metrics to recommend opportunities for improvements in marketing.",
+          "Integrated existing brand with an updated look.",
+          "Created Heat Maps & screen recordings to find usability issues."
+        ],
+        technologies: " CSS & SASS / Github / Adobe XD / Squarespace"
       },
       {
         company: "Intelligent Commercial Environments",
         position: "Project Manager",
         date: "March 2013 / April 2015",
-        duties: [
-          "Managed multiple commercial office projects from initial consultation, design, placing orders, tracking, and invoicing.",
-          "Maintained excellent communication, customer service, and organization throughout the entire transaction while staying true to brand standards and sales goals.",
-          "Received 100% “excellent” ratings on customer satisfaction surveys."
+        dailyDuties: "Project Managed multiple projects from initial consultation, design approval, placing complicated orders, tracking, and invoicing. Maintained excellent communication, customer service, and organization throughout the entire transaction while staying true to brand standards and sales goals.",
+        keyAccomplishments: [
+          "Received 100% “excellent” ratings on mandatory customer satisfaction surveys.",
+          "Worked independently to manage multiple active projects at once."
         ],
-        technologies: "AutoCAD / Adobe Suite"
+        technologies: "AutoCAD / Adobe Suite / Project Management Software"
       },
       {
         company: "Multiple Real Estate Firms",
         position: "Real Estate Broker",
         date: "June 2012 / present",
-        duties: [
-          "Licensed professional who helped buyers and sellers in Real Estate transactions.", 
-          "Write up contracts for sale of RE property, discuss conditions of sale, and perform any other fudiciary responsibilities as required by law or otherwise required."
+        dailyDuties: "Licensed professional who helped buyers and sellers in Real Estate transactions. Write up contracts for sale of RE property, discuss conditions of sale, and perform any other fudiciary responsibilities as required by law or otherwise required.",
+        keyAccomplishments: [
+          "Made over $2.5 million in sales in first year"
           ]
       }
     ];
@@ -78,7 +93,7 @@ class Index extends React.Component {
 
     const interests = [
       {
-        description: "I love to learn. I am extremely interested in learning the in's and outs of this entire business. If I could, I would go back to school and get a degree in Business, Computer Science, and Human Computer Interaction. Since that doesn't seem very feasable right now, I am happily working my way through UX Design and Product Design courses, applying the information as I can practically, reading a ton on modern marketing techniques, while teaching myself mid- to advanced-level React. Some day, I would love to move into Product Management. I love creating and being a part of building great products!"
+        description: "I love to learn. I am extremely interested in learning the in's and outs of this entire business. If I could, I would go back to school and get a degree in Business, Computer Science, and Human Computer Interaction. Since that doesn't seem very feasable right now, I am happily working my way through UX Design and Product Design courses, applying the information as I can practically, reading a ton on modern marketing techniques, while teaching myself new technologies. My ultimate career goal is to move into Product Management. I love creating and being a part of building great products!"
       }
     ];
 

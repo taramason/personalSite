@@ -188,7 +188,7 @@ h2 {
     transform: scale(0.8);
   }
   15% {
-    transform: scale(1);
+    transform: scale(1.6);
   }
   50% {
     transform: scale(0.8);
@@ -254,7 +254,6 @@ h2 {
 }
 
 .resume > div > p {
-  font-size:.9rem;
   margin: .4rem 0;
   line-height: 1.3rem;
 }
@@ -278,6 +277,7 @@ h2 {
   margin-bottom: .4rem;
   font-weight: 300;
   color: #717070;
+  font-size: .4 rem;
 }
 
 .resume > div > .date {
