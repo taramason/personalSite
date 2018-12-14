@@ -3,6 +3,8 @@ var style = require ('../styles/index.css');
 var Experience = require('./experience');
 var School = require('./school');
 var Interests = require('./interests');
+var Different = require('./different');
+
 var Linkify = require('react-linkify');
 //add PropTypes, check for string. https://learn.tylermcginnis.com/courses/50507/lectures/2466607
 //https://reactjs.org/docs/typechecking-with-proptypes.html
@@ -20,8 +22,10 @@ class Index extends React.Component {
         date: "June 2017 / present",
         dailyDuties: "Work with a small team of developers to troubleshoot and solve issues on legacy system. Maintain existing website, create internal apps in preferred technologies to help with productivity & performance. Create user stories & wireframes for OSHER website redesign, develop front-end from mockups.",
         keyAccomplishments: [
+          "Daily coding/developing in CSS, HTML JavaScript, Git/Github",
           "Worked across departments to identify gaps in current systems and problem-solve solutions in processes and product.",
           "Persuaded management to allow department to hold monthly hackathons to promote innovation.",
+          "Often required to multi-task numerous projects or requests at one time.",
           "Created a team whose purpose is to spark creativity.",
           "Created dashboard to display departments Key Performance Indicators (KPI’s)",
           "Took the initiative to push for adoption of User Testing to analyze & improve existing products."
@@ -101,6 +105,7 @@ class Index extends React.Component {
     return (
       <div id="theResume" className={style.middleContainer}>
         <div className={style.middle}>
+          <Different />
           <Experience jobs={jobs} />
           <School education={education} />
           <Interests interests={interests} />
