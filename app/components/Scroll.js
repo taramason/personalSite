@@ -1,5 +1,5 @@
-var React = require('react');
-var style = require ('../styles/index.css');
+import React from 'react';
+import { scroll } from '../styles/index.css';
 
 
 
@@ -8,7 +8,7 @@ class Scroll extends React.Component {
   render() {
 
     return (
-      <div className={style.scroll}>
+      <div className={scroll}>
         <a href='#theResume'>
           <i class="material-icons">
             expand_more
@@ -19,4 +19,4 @@ class Scroll extends React.Component {
   }
 }
 
-module.exports = Scroll;
+export default Scroll;

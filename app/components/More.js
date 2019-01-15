@@ -1,13 +1,12 @@
-var React = require('react');
-var style = require ('../styles/index.css');
-var Link = require('react-router-dom').Link
+import React from 'react';
+import { topMain, topContent } from '../styles/index.css';
 
 class More extends React.Component {
   render() {
 
     return (
-        <div className={style.topMain}>
-          <div className={style.topContent}>
+        <div className={topMain}>
+          <div className={topContent}>
             COMING SOON!
           </div>
         </div>
@@ -15,4 +14,4 @@ class More extends React.Component {
   }
 }
 
-module.exports = More;
+export default More;

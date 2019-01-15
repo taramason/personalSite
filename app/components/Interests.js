@@ -1,5 +1,5 @@
-var React = require('react');
-var style = require ('../styles/index.css');
+import React from 'react';
+import style from '../styles/index.css';
 
 class Interests extends React.Component {
   render() {
@@ -20,7 +20,7 @@ class Interests extends React.Component {
   }
 }
 
-module.exports = Interests;
+export default Interests;
 
 
   

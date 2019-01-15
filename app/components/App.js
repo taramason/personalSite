@@ -1,21 +1,17 @@
-var React = require('react');
-var style = require ('../styles/index.css');
-var Nav = require('./nav');
-var Logo = require('./logo');
-var Home = require('./home');
-var More = require('./more');
-var Contact = require('./contact');
-var TheResume = require('./theResume');
-var ReactRouter = require('react-router-dom');
-var Router = ReactRouter.BrowserRouter;
-var Route = ReactRouter.Route;
+import React from 'react';
+import Nav from './nav';
+import Logo from './logo';
+import Home from './home';
+import More from './more';
+import Projects from './projects';
+import Contact from './contact';
+import Footer from './footer';
+import Spacer from './spacer';
 
-
-
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 class App extends React.Component {
   render() {
-
     return (
       <Router>
         <div>
@@ -23,11 +19,14 @@ class App extends React.Component {
           <Logo />
           <Route exact path='/' component={Home} />
           <Route path='/more' component={More} />
+          <Route path='/projects' component={Projects} />
           <Route path='/contact' component={Contact} />
+          <Spacer />
+          <Footer />
         </div>
       </Router>
     )
   }
 }
 
-module.exports = App;
+export default App;

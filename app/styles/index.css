@@ -46,6 +46,7 @@ html {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -65,7 +66,16 @@ a:hover {
 }
 
 h2 {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
+  margin: 20px 0 10px;
+  color: white;
+  background-color: black;
+  padding: 2px 0 8px 5px;
+}
+
+h3 {
+  font-weight: 300;
+  margin-bottom: .0;
 }
 
 .active {
@@ -94,8 +104,13 @@ h2 {
 	padding: 10px;
 }
 
-.logoDiv {
-
+.logoHover {
+  width: 120px;
+  height:400px;
+	margin: 0;
+	position: absolute;
+	left:10px;
+	font-size: 80px;
 }
 
 .logoFirst {
@@ -140,6 +155,10 @@ h2 {
 	-o-transform: rotate(-90deg);
 }
 
+.logoFirst:hover + .logoLast {
+  color: #ca2e55;
+}
+
 .aboutMeContainer {
   display: flex;
   flex-direction: column;
@@ -147,11 +166,16 @@ h2 {
 }
 
 .topContent {
-/*	padding: 50vh 20px 10px 20px;*/
   margin-top: 50vh;
 	width: 50vw;
 	max-width: 600px;
 }
+
+.topContent2 {
+    margin-top: 20px;
+    width: 50vw;
+    max-width: 600px;
+  }
 
 .scroll {
 	margin: 60px auto 60px auto;
@@ -162,6 +186,15 @@ h2 {
 }
 
 .topMain {
+  max-width: 1150px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.topLogo {
   max-width: 1150px;
   margin: auto;
   position: relative;
@@ -215,27 +248,53 @@ h2 {
 	width: 50vw;
 	max-width: 600px;
 	align-self: flex-end;
-/*	margin-right: 20px;
-	padding: 0 30px 10px 50px;*/
 }
 
 .eachPosition {
   margin: 2rem 0;
 }   
 
-.resume h2 {
-	margin: 10px 0 10px;
-  color: white;
-  background-color: black;
-  padding: 2px 0 8px 5px;
+.differentH1 { 
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  background: none;
+  color: black;
+  font-weight: 300;
+  padding-left: 0;
 }
 
-.resume .pDifferent {
-  margin-bottom: .4rem;
-  
+.projectsH1 {
+  font-size: 1.5rem;
+  margin-left: 118px;
+  margin-bottom: 1rem;
+  background: none;
+  color: black;
+  font-weight: 300;
+  padding-left: 0;
 }
 
-.resume h3 {
+.ulDifferent {
+  margin-bottom: 3rem;
+}
+
+.happyFace {
+  position: relative;
+  top: 5px;
+  margin: 0 10px;
+  fill: #ca2e55;
+}
+
+.underlined {
+  text-decoration: underline !important;
+  font-weight: 400 !important;
+}
+
+.resumeH3 {
+	font-weight: 300;
+  margin-bottom: .0;
+}
+
+.educationH3 {
 	font-weight: 300;
   margin-bottom: .0;
 }
@@ -288,6 +347,49 @@ h2 {
 .resume > div > .date {
   margin-top: 0;
   color: #717070;
+}
+
+.portfDiv {
+  display: flex;
+}
+
+.portfPreview {
+  background-color: #ca2e55;
+  height: 100px;
+  min-width: 100px;
+  border-radius: 50%;
+}
+.portfPreview:hover {
+  background-color: #ed597e;
+}
+
+.portfDescrDiv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.portfH1 {
+  margin-top: 0;
+  font-weight: 300;
+  font-size: 1.17em; 
+}
+
+.portfP {
+  margin-top: 0;
+  font-weight: 300;
+  color: #717070;
+}
+
+.spacerDiv {
+  background-color: #E8E8E8;
+  height: 10vh;
+}
+
+.footerDiv {
+  display: flex;
+  justify-content: center;
+  font-size: .6em;
 }
 
 @media only screen and (max-width: 600px) {

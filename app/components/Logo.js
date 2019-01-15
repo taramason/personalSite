@@ -1,19 +1,18 @@
-var React = require('react');
-var style = require ('../styles/index.css');
-
-
-
+import React from 'react';
+import { topLogo, logoHover, logoFirst, logoLast } from '../styles/index.css';
 
 class Logo extends React.Component {
   render() {
 
     return (
-      <div className={style.topMain}>
-        <a href="" className={style.logoFirst}>Tara</a>
-        <a href="" className={style.logoLast}>Mason</a>
+      <div className={topLogo}>
+        <div className={logoHover}>
+          <a href="" className={logoFirst}>Tara</a>
+          <a href="" className={logoLast}>Mason</a>
+        </div>
       </div> 
     )
   }
 }
 
-module.exports = Logo;
+export default Logo;

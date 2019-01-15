@@ -11,10 +11,15 @@ module.exports = {
   },
   module: {
     rules: [
+      // {
+      //   test: /\.svg$/,
+      //   loader: 'svg-inline-loader?classPrefix'
+      // },
       {
         test: /\.(js)$/,
         use:'babel-loader'
       },
+      { test: /\.ts$/, use: 'ts-loader' },
       {
         test: /\.css$/,
         loader: combineLoaders([
@@ -30,13 +35,6 @@ module.exports = {
             }
           }
         ])
-      },
-     {
-      test: /\.svg/,
-      use: {
-          loader: 'svg-url-loader',
-          options: {}
-          }
       }
     ]
   },

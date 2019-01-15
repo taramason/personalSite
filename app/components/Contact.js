@@ -1,12 +1,11 @@
-var React = require('react');
-var style = require ('../styles/index.css');
+import React from 'react';
+import { topMain, topContent } from '../styles/index.css';
 
 class Contact extends React.Component {
   render() {
-
     return (
-      <div className={style.topMain}>
-        <div className={style.topContent}>
+      <div className={topMain}>
+        <div className={topContent}>
           <p>Currently open to new opportunities! Lets chat.</p>
           <a href="mailto:tara.mason@gmail.com">tara.mason@gmail.com</a>
         </div>
@@ -15,4 +14,4 @@ class Contact extends React.Component {
   }
 }
 
-module.exports = Contact;
+export default Contact;

@@ -1,6 +1,5 @@
-var React = require('react');
-var style = require ('../styles/index.css');
-var Linkify = require('react-linkify');
+import React from 'react';
+import { resume, resumeH2, resumeH3, eachPosition, date, position, technologies } from '../styles/index.css';
 
 
 class Experience extends React.Component {
@@ -8,30 +7,30 @@ class Experience extends React.Component {
   console.log(this.props)
 
     return (
-      <div className={style.resume}>
-      <h2>Experience</h2>
+      <div className={resume}>
+      <h2 className={resumeH2}>Experience</h2>
  
         {this.props.jobs.map(function(job, i){
-            return (
-              <div className={style.eachPosition}>
-                <p className={style.date}>{job.date}</p>
-                <h3>{job.company}<span className={style.position}>{job.position}</span></h3>
-                <p className={style.technologies}>{job.technologies}</p>
-                <p>{job.dailyDuties}</p>
-                <ul>
-                  {job.keyAccomplishments.map(function(duty) {
-                    return  ( <li>{duty}</li> )
-                  })}
-                </ul>
-              </div>
-            ) 
+          return (
+            <div className={eachPosition}>
+              <p className={date}>{job.date}</p>
+              <h3 className={resumeH3}>{job.company}<span className={position}>{job.position}</span></h3>
+              <p className={technologies}>{job.technologies}</p>
+              <p>{job.dailyDuties}</p>
+              <ul>
+                {job.keyAccomplishments.map(function(duty) {
+                  return  ( <li>{duty}</li> )
+                })}
+              </ul>
+            </div>
+          ) 
         })}
       </div>
     )
   }
 }
 
-module.exports = Experience;
+export default Experience;
 
 
   

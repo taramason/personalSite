@@ -1,39 +1,39 @@
-var React = require('react');
-var style = require ('../styles/index.css');
-var Linkify = require('react-linkify');
-
+import React from 'react';
+import { resume, differentH1, ulDifferent, underlined, happyFace } from '../styles/index.css';
+import Face from 'react-svg-loader!../assets/happyFace.svg';
 
 class Different extends React.Component {
   render() {
-  console.log(this.props)
 
     return (
-      <div className={style.resume}>
-        <h3 className={style.pDifferent}>What makes me different:</h3>
-        <ul>
+      <div className={resume}>
+        <h1 className={differentH1}>Why I'm different
+        <Face width={30} height={30} className={happyFace}/>
+        :</h1>
+        <ul className={ulDifferent}>
           <li>
-            Proven ability to work independently.
+            I am proactive.
           </li>
           <li>
-            Excel at multi-tasking many projects at once after years of working as a project manager.
+            I play well with others.
           </li>
           <li>
-            Proficient in the Adobe Design Suite, with a background in Multimedia.
+            Worked as a project manager for years (mad juggling skills).
+          </li>
+          <li>
+            I can design the UX as well as code it, independently.
           </li> 
           <li>
-            Obsessed with UX (read my blog about it <a href="http://bit.ly/makingACaseForUX">here.</a>)
+            Obsessed with the user (read my blog about it <a href="http://bit.ly/makingACaseForUX" class={underlined}>here</a>.)
           </li>
+          <li>
+            Proficient in JavaScript & Node.js.
+          </li> 
           <li>
             Proficient in CSS (SASS/SCSS, and LESS too).
           </li>  
           <li>
-            Proficient in JavaScript.
-          </li> 
-          <li>
-            Familiar with semantic markup & accessible design and when to / when not to use ARIA.
-          </li> 
-          <li>
-            Freelance designer & fine arts oil painter.
+            Familiar with semantic markup & accessible design.
           </li> 
         </ul>
       </div>
@@ -41,7 +41,7 @@ class Different extends React.Component {
   }
 }
 
-module.exports = Different;
+export default Different;
 
 
   

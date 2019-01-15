@@ -1,19 +1,11 @@
-var React = require('react');
-var style = require ('../styles/index.css');
-var Logo = require('./logo');
-var More = require('./more');
-var More = require('./projects');
-
-var Contact = require('./contact');
-
-var Link = require('react-router-dom').Link; //for a button
-var NavLink = require('react-router-dom').NavLink;
+import React from 'react';
+import style from '../styles/index.css';
+import { NavLink } from 'react-router-dom'
 
 
 
-
-  function Nav () {
-
+class Nav extends React.Component {
+  render() {
     return (
       <div className={style.main}>
         <div className={style.navBar}>
@@ -34,7 +26,7 @@ var NavLink = require('react-router-dom').NavLink;
         </div>
       </div>
     )
-  
+  }
 }
 
-module.exports = Nav;
+export default Nav;

@@ -1,9 +1,8 @@
-var React = require('react');
-var AboutMe = require('./aboutMe');
-var Scroll = require('./scroll');
-var TheResume = require('./theResume');
-var Link = require('react-router-dom').Link;
-var style = require ('../styles/index.css');
+import React from 'react';
+import AboutMe from './aboutMe';
+import Scroll from './scroll';
+import TheResume from './theResume';
+import { topMain, middleMain } from '../styles/index.css';
 
 
 
@@ -13,11 +12,11 @@ class Home extends React.Component {
 
     return (
       <div>
-        <div className={style.topMain}>
+        <div className={topMain}>
           <AboutMe />
           <Scroll />
         </div>
-        <div className={style.middleMain}>
+        <div className={middleMain}>
           <TheResume />
         </div>
       </div>
@@ -25,4 +24,4 @@ class Home extends React.Component {
   }
 }
 
-module.exports = Home;
+export default Home;
