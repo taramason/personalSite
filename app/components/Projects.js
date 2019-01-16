@@ -1,5 +1,6 @@
 import React from 'react';
-import { topMain } from '../styles/index.css';
+import { topMain, topContent, middle, middleMain } from '../styles/index.css';
+import ScrollProjects from './scrollProjects';
 import ListDevProjects from './ListDevProjects';
 import ListDesignProjects from './ListDesignProjects';
 
@@ -7,7 +8,7 @@ const devProjects = [
   {
     title: "KPI Dashboard",
     url: "",
-    description: "KPI (Key Performance Indicators) TV dashboard for display at CSU",
+    description: "KPI (Key Performance Indicators) TV dashboard for display at CSU.",
     technologies: "JavaScript / CSS / Decoupled API / GitHub / Adobe XD"
   },
   {
@@ -25,7 +26,7 @@ const devProjects = [
   {
     title: "Online Library",
     url: "https://github.com/taramason/socialMediaApp",
-    description: "A CRUD app that allows users to add books to an online library",
+    description: "A CRUD app that allows users to add books to an online library.",
     technologies: "Materialize / JavaScript / Handlebars / PostgreSQL / Node.js / Express / Knex.js."
   },
 ];
@@ -40,13 +41,13 @@ const designProjects = [
   {
     title: "VR Video App Prototype ",
     url: "https://app.atomic.io/d/YtIJpwqF3edg?page=da07f546-a878-4064-b1e5-d1a159c51509",
-    description: "Design for an internal app to play educational Virtual Reality video",
+    description: "Design for an internal app to play educational Virtual Reality video.",
     technologies: "Atomic.io Prototyping Tool"
   },
   {
     title: "TMI Mockups",
     url: "https://xd.adobe.com/view/1858fea7-8ce1-4714-93c6-906cf176e2d5?fullscreen",
-    description: "Mockup for potential TMI addition to CSU Online",
+    description: "Mockup for potential TMI addition to CSU Online.",
     technologies: "Adobe XD"
   }
 ];
@@ -54,9 +55,19 @@ const designProjects = [
 class Projects extends React.Component {
   render() {
     return (
-      <div className={topMain}>
-        <ListDevProjects projects={devProjects} />
-        <ListDesignProjects projects={designProjects} />
+      <div>
+        <div className={topMain}>
+          <div className={topContent}>
+          Please excuse the mess, this page is under construction! <br></br>However, feel free to check out a few of my projects below!
+          </div>
+          <ScrollProjects />
+        </div>
+        <div className={middleMain} id="projects">
+        <div className={middle}>
+          <ListDevProjects projects={devProjects} />
+          <ListDesignProjects projects={designProjects} />
+          </div>
+        </div>
       </div>
     )
   }

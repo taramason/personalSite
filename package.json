@@ -13,7 +13,7 @@
   "scripts": {
     "start:dev": "webpack-dev-server --mode development --config webpack.base.config.js --open --hot",
     "prestart:prod": "webpack --mode production --config webpack.prod.config.js --env.NODE_ENV=production --progress",
-    "start:prod": "node server"
+    "start:prod": "node server"  //firebase deploy to re-deploy changes
   },
   "keywords": [],
   "author": "",

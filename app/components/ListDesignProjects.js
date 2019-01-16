@@ -1,5 +1,5 @@
 import React from 'react';
-import {  topContent2, portfPreview, projectsH1, portfDiv, portfP, portfDescrDiv, portfH1 } from '../styles/index.css';
+import {  topContent2, portfPreview, portfCircle, projects, projectsH1, portfDiv, portfP, portfDescrDiv, portfH1 } from '../styles/index.css';
 
 
 class ListDesignProjects extends React.Component {
@@ -7,12 +7,12 @@ class ListDesignProjects extends React.Component {
     console.log("projects", this.props);
     return (
 
-      <div className={topContent2}>
+      <div className={projects}>
         <h1 class={projectsH1}>Design</h1>
         {this.props.projects.map(function(project){
           return(
             <div className={portfDiv}>
-              <a href={project.url} className={portfP} target="_blank">
+              <a href={project.url} className={portfCircle} target="_blank">
                 <div className={portfPreview}></div>
               </a>
               <div className={portfDescrDiv}>

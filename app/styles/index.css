@@ -247,7 +247,14 @@ h3 {
 .resume {
 	width: 50vw;
 	max-width: 600px;
-	align-self: flex-end;
+  align-self: flex-end;
+}
+
+.projects {
+	width: 50vw;
+	max-width: 600px;
+  align-self: flex-end;
+  margin-right: 120px;
 }
 
 .eachPosition {
@@ -351,17 +358,22 @@ h3 {
 
 .portfDiv {
   display: flex;
+  margin-bottom: 40px;
 }
 
-.portfPreview {
+.portfCircle {
   background-color: #ca2e55;
   height: 100px;
   min-width: 100px;
   border-radius: 50%;
 }
-.portfPreview:hover {
+.portfCircle:hover {
   background-color: #ed597e;
 }
+
+/* .portfCircle:visited {
+  background-color: #d3bec4;
+} */
 
 .portfDescrDiv {
   display: flex;
@@ -370,7 +382,7 @@ h3 {
 }
 
 .portfH1 {
-  margin-top: 0;
+  margin: 0 0 5px 0;
   font-weight: 300;
   font-size: 1.17em; 
 }
