@@ -1,7 +1,6 @@
 var path = require ('path');
 var HtmlWebpackPlugin = require ('html-webpack-plugin');
 var combineLoaders = require ('webpack-combine-loaders');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   entry: './app/index.js',

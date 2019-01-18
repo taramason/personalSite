@@ -1,5 +1,5 @@
 import React from 'react';
-import {  topContent2, portfPreview, portfCircle, projects, projectsH1, portfDiv, portfP, portfDescrDiv, portfH1 } from '../styles/index.css';
+import { portfPreview, portfCircle, projects, projectsH1, portfDiv, portfP, portfDescrDiv, portfH1 } from '../styles/index.css';
 
 
 class ListDesignProjects extends React.Component {
