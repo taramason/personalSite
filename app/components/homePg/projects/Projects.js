@@ -7,13 +7,14 @@ import ListDesignProjects from './ListDesignProjects';
 const devProjects = [
   {
     title: "This Website",
-    url: "https://kpidashboard-7e33d.firebaseapp.com",
-    description: "KPI (Key Performance Indicators) TV dashboard for display at CSU. Used JavaScript to grab numbers from an API and dynamically create the corresponding Up or Down arrow depending on a positive or negative number.",
-    technologies: "JavaScript / CSS / Decoupled API / GitHub / Adobe XD"
+    url: "https://github.com/taramason/personalSite",
+    description: "A static site designed in Adobe XD, developed using React with a custom Webpack configuration (not create-react-app), deployed on Firebase",
+    technologies: "JavaScript / CSS / Webpack / GitHub / Adobe XD"
   },
+  {
     title: "KPI Dashboard",
     url: "https://kpidashboard-7e33d.firebaseapp.com",
-    description: "KPI (Key Performance Indicators) TV dashboard for display at CSU. Used JavaScript to grab numbers from an API and dynamically create the corresponding Up or Down arrow depending on a positive or negative number.",
+    description: "KPI (Key Performance Indicators) TV dashboard for display at CSU Online. Used JavaScript to grab numbers from an API and dynamically create the corresponding Up or Down arrow depending on a positive or negative number.",
     technologies: "JavaScript / CSS / Decoupled API / GitHub / Adobe XD"
   },
   {
@@ -37,6 +38,12 @@ const devProjects = [
 ];
 
 const designProjects = [
+  {
+    title: "This Website Design",
+    url: "https://xd.adobe.com/view/f54e5fa0-4cc7-4c22-825c-530adb230134",
+    description: "Designed mockups for this website using Adobe XD",
+    technologies: "Adobe XD Prototyping Software"
+  },
   {
     title: "Girls Coding App",
     url: "https://xd.adobe.com/view/f54e5fa0-4cc7-4c22-825c-530adb230134",
