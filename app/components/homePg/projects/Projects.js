@@ -7,6 +7,7 @@ import ListDesignProjects from './ListDesignProjects';
 const devProjects = [
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     title: "This Website",
     url: "https://github.com/taramason/personalSite",
@@ -14,6 +15,8 @@ const devProjects = [
     technologies: "JavaScript / CSS / Webpack / GitHub / Adobe XD"
   },
   {
+=======
+>>>>>>> parent of 4e2cb86... fixed some styling issues:
 =======
 >>>>>>> parent of 4e2cb86... fixed some styling issues:
     title: "KPI Dashboard",
