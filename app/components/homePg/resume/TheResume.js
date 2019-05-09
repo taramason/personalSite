@@ -1,5 +1,5 @@
 import React from 'react'
-import { middleContainer, middle } from '../styles/index.css';
+import { middleContainer, middle, fullGreyBackgroundDiv } from '../../index.css';
 import Experience from './experience';
 import School from './school';
 import Interests from './interests';
@@ -22,22 +22,21 @@ const jobs = [
       "Worked across departments to identify gaps in current systems and problem-solve solutions in processes and product.",
       "Persuaded management to allow department to hold monthly hackathons to promote innovation.",
       "Often required to multi-task numerous projects or requests at one time.",
-      "Created a team whose purpose is to spark creativity.",
       "Created dashboard to display departments Key Performance Indicators (KPI’s)",
       "Took the initiative to push for adoption of User Testing to analyze & improve existing products."
     ],
-    technologies: "C# / .netASP MVC / Java / JavaScript / CSS, SASS & Compass / Visual Studio / Version Control / Other tech as desired (React, Adobe XD, Adobe Suite)"
+    technologies: "JavaScript / React / Webpack / CSS, SASS / C# / Java / SQL / Git, Github / Adobe XD, Adobe Design Suite"
   },
   {
     company: "Excelsior Solutions",
     position: "Front End / JavaScript Developer",
     date: "April 2017 / July 2017",
-    dailyDuties: "Completed Jira tickets for features & troubleshoot bug fixes on legacy site code as needed. Worked 90% remotely. ",
+    dailyDuties: "Completed bug fixes on legacy code as needed. Worked 90% remotely. ",
     keyAccomplishments: [
       "Designed mockups for site update using existing brand look and feel.",
       "Website re-design for a billion-dollar business."
     ],
-    technologies: "Javascript / CSS & SASS / Jira / Github / Adobe XD"
+    technologies: "Javascript / CSS & SASS / Jira / Git & Github / Adobe XD"
   },
   {
     company: "Tara Creative",
@@ -102,7 +101,7 @@ class Index extends React.Component {
 
 //pass in as props (divide out experience, education, etc.)
     return (
-      <div id="theResume" className={middleContainer}>
+      <div id="theResume" className={fullGreyBackgroundDiv}>
         <div className={middle}>
           <Different />
           <Experience jobs={jobs} />

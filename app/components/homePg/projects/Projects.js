@@ -1,5 +1,5 @@
 import React from 'react';
-import { topMain, topContent, middle, middleMain } from '../styles/index.css';
+import { topMain, topContent, middle, middleMain } from './projectsStyles.css';
 import ScrollProjects from './scrollProjects';
 import ListDevProjects from './ListDevProjects';
 import ListDesignProjects from './ListDesignProjects';
@@ -55,13 +55,7 @@ const designProjects = [
 class Projects extends React.Component {
   render() {
     return (
-      <div>
-        <div className={topMain}>
-          <div className={topContent}>
-          Please excuse the mess, this page is under construction! <br></br>However, feel free to check out a few of my projects below!
-          </div>
-          <ScrollProjects />
-        </div>
+      <div id="projects">
         <div className={middleMain} id="projects">
         <div className={middle}>
           <ListDevProjects projects={devProjects} />

@@ -1,5 +1,5 @@
 import React from 'react';
-import { scroll } from '../styles/index.css';
+import { scroll } from '../sectionsStyles.css';
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { topLogo, logoHover, logoFirst, logoLast } from '../styles/index.css';
+import { topLogo, logoHover, logoFirst, logoLast } from '../navigation/navStyles.css';
 
 class Logo extends React.Component {
   render() {

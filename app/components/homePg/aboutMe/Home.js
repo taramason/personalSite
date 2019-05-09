@@ -1,8 +1,10 @@
 import React from 'react';
 import AboutMe from './aboutMe';
 import Scroll from './scroll';
-import TheResume from './theResume';
-import { topMain, middleMain } from '../styles/index.css';
+import Resume from '../resume/theResume';
+import Projects from '../projects/projects';
+
+import { topMain } from './aboutMeStyles.css';
 
 
 
@@ -12,13 +14,14 @@ class Home extends React.Component {
 
     return (
       <div>
-        <div className={topMain}>
+        
+        <div>
           <AboutMe />
           <Scroll />
+          <Resume />
+          <Projects />
         </div>
-        <div className={middleMain}>
-          <TheResume />
-        </div>
+
       </div>
     )
   }

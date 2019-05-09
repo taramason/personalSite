@@ -1,5 +1,5 @@
 import React from 'react';
-import { topMain, topContent } from '../styles/index.css';
+import { topMain, topContent } from '../index.css';
 
 class More extends React.Component {
   render() {

@@ -1,12 +1,12 @@
 import React from 'react';
-import { resume, differentH1, ulDifferent, underlined, happyFace } from '../styles/index.css';
-import Face from 'react-svg-loader!../assets/happyFace.svg';
+import { resumeWhyDifferent, differentH1, ulDifferent, underlined, happyFace } from '../../index.css';
+import Face from 'react-svg-loader!../../../assets/happyFace.svg';
 
 class Different extends React.Component {
   render() {
 
     return (
-      <div className={resume}>
+      <div className={resumeWhyDifferent}>
         <h1 className={differentH1}>Why I'm different
         <Face width={30} height={30} className={happyFace}/>
         :</h1>
@@ -14,7 +14,7 @@ class Different extends React.Component {
           <li>
             I am proactive.
           </li>
-          <li>
+          <li>?
             I play well with others.
           </li>
           <li>

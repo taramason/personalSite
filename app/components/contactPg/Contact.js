@@ -1,5 +1,5 @@
 import React from 'react';
-import { topMain, topContent } from '../styles/index.css';
+import { topMain, topContent } from './contactStyles.css';
 
 class Contact extends React.Component {
   render() {

@@ -1,0 +1,78 @@
+.middleMain {
+  background-color: #E8E8E8;
+}
+
+.topContent {
+  margin-top: 50vh;
+  width: 50vw;
+  max-width: 600px;
+}
+
+.topContent>p>i {
+  position: relative;
+  top: 5px;
+  color: #ca2e55;
+  animation: animateHeart 3s infinite;
+}
+
+@keyframes animateHeart {
+  0% {
+    transform: scale(0.8);
+  }
+
+  5% {
+    transform: scale(0.9);
+  }
+
+  10% {
+    transform: scale(0.8);
+  }
+
+  15% {
+    transform: scale(1.6);
+  }
+
+  50% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+.scroll {
+  margin: 60px auto 60px auto;
+}
+
+.scroll>a>i {
+  font-size: 60px;
+}
+
+.projects {
+  width: 50vw;
+  max-width: 600px;
+  align-self: flex-end;
+}
+
+.portfDiv {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.portfP {
+  margin-top: 0;
+  font-weight: 300;
+  color: #717070;
+}
+
+.portfDescrDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfH1 {
+  margin: 0 0 5px 0;
+  font-weight: 300;
+  font-size: 1.17em;
+}

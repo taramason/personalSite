@@ -1,0 +1,119 @@
+.middleMain {
+  background-color: #E8E8E8;
+}
+
+.middle {
+  background-color: #E8E8E8;
+  display: flex;
+  flex-direction: column;
+  max-width: 1150px;
+  margin: auto;
+}
+
+.fullGreyBackgroundDiv {
+  width: 100%;
+  background-color: #E8E8E8;
+}
+
+.topContent {
+  margin-top: 50vh;
+  width: 50vw;
+  max-width: 600px;
+}
+
+.scroll {
+  margin: 60px auto 60px auto;
+}
+
+.scroll>a>i {
+  font-size: 60px;
+}
+
+.projects {
+  width: 50%;
+  max-width: 600px;
+  align-self: flex-end;
+}
+
+.portfDiv {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.portfP {
+  margin: 0;
+  font-weight: 300;
+  color: #717070;
+}
+
+.portfDescrDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.portfDescrDiv H3 {
+  margin-top: 0;
+}
+
+.portfH1 {
+  margin: 0 0 5px 0;
+  font-weight: 300;
+  font-size: 1.17em;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .logoFirst {
+    left: 10px;
+  }
+
+  .resume {
+    width: 100vw;
+    padding: 5% 5% 8%;
+  }
+
+  .resume>div>.date {
+    margin: 0;
+    padding: 0;
+  }
+
+  .resume>div>h3 {
+    margin-top: .4rem;
+  }
+
+  .aboutMe {
+    padding-right: 5%;
+  }
+
+} 
+
+@media only screen and (max-width: 600px) {
+
+  .logoFirst {
+    left: 10px;
+  }
+
+  .resume {
+    width: 100%;
+  }
+
+  .resume>div>.date {
+    margin: 0;
+    padding: 0;
+  }
+
+  .resume>div>h3 {
+    margin-top: .4rem;
+  }
+
+  .aboutMe {
+    padding-right: 5%;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+}
+

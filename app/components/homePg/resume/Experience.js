@@ -1,5 +1,5 @@
 import React from 'react';
-import { resume, resumeH2, resumeH3, eachPosition, date, position, technologies } from '../styles/index.css';
+import { resume, resumeH2, resumeH3, eachPosition, date, position, technologies } from '../../index.css';
 
 
 class Experience extends React.Component {
@@ -10,7 +10,7 @@ class Experience extends React.Component {
       <div className={resume}>
       <h2 className={resumeH2}>Experience</h2>
  
-        {this.props.jobs.map(function(job, i){
+        {this.props.jobs.map(function (job, i){
           return (
             <div className={eachPosition}>
               <p className={date}>{job.date}</p>

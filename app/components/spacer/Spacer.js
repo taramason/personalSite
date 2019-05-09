@@ -1,5 +1,5 @@
 import React from 'react';
-import {spacerDiv} from '../styles/index.css';
+import {spacerDiv} from './spacerStyles.css';
 
 class Spacer extends React.Component {
   render(){

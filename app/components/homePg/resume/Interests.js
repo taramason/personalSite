@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../styles/index.css';
+import style from '../../index.css';
 
 class Interests extends React.Component {
   render() {

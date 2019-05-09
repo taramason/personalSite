@@ -1,12 +1,13 @@
 import React from 'react';
-import Nav from './nav';
-import Logo from './logo';
-import Home from './home';
-import More from './more';
-import Projects from './projects';
-import Contact from './contact';
-import Footer from './footer';
-import Spacer from './spacer';
+import Nav from './navigation/nav';
+import Logo from './navigation/logo';
+import Home from './homePg/aboutMe/home';
+import More from './morePg/more';
+import Projects from './homePg/projects/projects';
+import Contact from './contactPg/contact';
+import Footer from './footer/footer';
+import Spacer from './spacer/spacer';
+import Resume from './homePg/resume/theResume';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
@@ -18,7 +19,6 @@ class App extends React.Component {
           <Nav />
           <Logo />
           <Route exact path='/' component={Home} />
-          <Route path='/more' component={More} />
           <Route path='/projects' component={Projects} />
           <Route path='/contact' component={Contact} />
           <Spacer />
