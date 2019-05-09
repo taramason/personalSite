@@ -6,6 +6,11 @@ import ListDesignProjects from './ListDesignProjects';
 
 const devProjects = [
   {
+    title: "This Website",
+    url: "https://kpidashboard-7e33d.firebaseapp.com",
+    description: "KPI (Key Performance Indicators) TV dashboard for display at CSU. Used JavaScript to grab numbers from an API and dynamically create the corresponding Up or Down arrow depending on a positive or negative number.",
+    technologies: "JavaScript / CSS / Decoupled API / GitHub / Adobe XD"
+  },
     title: "KPI Dashboard",
     url: "https://kpidashboard-7e33d.firebaseapp.com",
     description: "KPI (Key Performance Indicators) TV dashboard for display at CSU. Used JavaScript to grab numbers from an API and dynamically create the corresponding Up or Down arrow depending on a positive or negative number.",

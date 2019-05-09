@@ -3,7 +3,6 @@ import { topLogo, logoHover, logoFirst, logoLast } from '../navigation/navStyles
 
 class Logo extends React.Component {
   render() {
-
     return (
       <div className={topLogo}>
         <div className={logoHover}>
