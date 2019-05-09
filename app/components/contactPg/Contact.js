@@ -7,7 +7,7 @@ class Contact extends React.Component {
       <div className={topMain}>
         <div className={topContent}>
           <p>Currently open to new opportunities! Lets chat.</p>
-          <a href="mailto:tara.mason@gmail.com" target="_blank">tara.mason@gmail.com</a>
+          <a href="mailto:tara.mason@gmail.com">tara.mason@gmail.com</a>
         </div>
       </div>
     )
