@@ -3,7 +3,7 @@ import AboutMe from './aboutMe';
 import Scroll from './scroll';
 import Resume from '../resume/theResume';
 import Projects from '../projects/projects';
-// import FooterGrey from '../../footer/FooterGrey';
+import FooterGrey from '../../footer/FooterGrey';
 
 class Home extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class Home extends React.Component {
         <Scroll />
         <Resume />
         <Projects />
-        {/* <FooterGrey /> */}
+        <FooterGrey />
       </div>
     )
   }
