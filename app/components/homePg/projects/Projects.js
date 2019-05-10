@@ -6,9 +6,9 @@ import ListDesignProjects from './ListDesignProjects';
 
 const devProjects = [
   {
-    title: "This Website",
-    url: "https://kpidashboard-7e33d.firebaseapp.com",
-    description: "KPI (Key Performance Indicators) TV dashboard for display at CSU. Used JavaScript to grab numbers from an API and dynamically create the corresponding Up or Down arrow depending on a positive or negative number.",
+    title: "taramason.com",
+    url: "https://github.com/taramason/personalSite",
+    description: "(This website) A static website designed to mimic my resume. Built with React and a custom Webpack configuration (NOT create-react-app), designed in XD. ",
     technologies: "JavaScript / CSS / Decoupled API / GitHub / Adobe XD"
   },
   {
@@ -39,7 +39,7 @@ const devProjects = [
 
 const designProjects = [
   {
-    title: "This Website Design",
+    title: "taramason.com",
     url: "https://xd.adobe.com/view/f54e5fa0-4cc7-4c22-825c-530adb230134",
     description: "Designed mockups for this website using Adobe XD",
     technologies: "Adobe XD Prototyping Software"

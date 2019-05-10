@@ -1,4 +1,11 @@
-.footerDiv {
+.footerDivGrey {
+  display: flex;
+  justify-content: center;
+  font-size: .6em;
+  background-color: #E8E8E8;
+}
+
+.footerDivWhite {
   display: flex;
   justify-content: center;
   font-size: .6em;

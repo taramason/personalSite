@@ -3,25 +3,18 @@ import AboutMe from './aboutMe';
 import Scroll from './scroll';
 import Resume from '../resume/theResume';
 import Projects from '../projects/projects';
-
-import { topMain } from './aboutMeStyles.css';
-
-
-
+// import FooterGrey from '../../footer/FooterGrey';
 
 class Home extends React.Component {
   render() {
 
     return (
       <div>
-        
-        <div>
-          <AboutMe />
-          <Scroll />
-          <Resume />
-          <Projects />
-        </div>
-
+        <AboutMe />
+        <Scroll />
+        <Resume />
+        <Projects />
+        {/* <FooterGrey /> */}
       </div>
     )
   }
