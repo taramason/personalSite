@@ -6,7 +6,9 @@ class Contact extends React.Component {
     return (
       <div className={topMain}>
         <div className={topContent}>
-          <p>Currently open to new opportunities! Lets chat.</p>
+          <p>Currently open to new opportunities! </p>
+          <p>I would prefer to use my natural Front End talent to improve your product, in an Agile environment, using React or something similar.</p>
+          <p>Lets chat.</p>
           <a href="mailto:tara.mason@gmail.com">tara.mason@gmail.com</a>
         </div>
       </div>
