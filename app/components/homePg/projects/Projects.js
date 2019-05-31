@@ -31,13 +31,19 @@ const devProjects = [
   },
   {
     title: "Online Library",
-    url: "https://github.com/taramason/socialMediaApp",
+    url: "https://tarasgalvanizereads.herokuapp.com/",
     description: "A CRUD app that allows users to add books to an online library.",
     technologies: "Materialize / JavaScript / Handlebars / PostgreSQL / Node.js / Express / Knex.js."
   },
 ];
 
 const designProjects = [
+  {
+    title: "CSU Online Event Form",
+    url: "https://colostateonline.tfaforms.net/217763",
+    description: "Gave a fresh look to an otherwise boring sign-up form",
+    technologies: "Form Assembly with custom CSS"
+  },
   {
     title: "taramason.com",
     url: "https://xd.adobe.com/view/f54e5fa0-4cc7-4c22-825c-530adb230134",
