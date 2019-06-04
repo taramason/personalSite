@@ -4,7 +4,7 @@
 * **_npm install_** to install all dependencies
 * **_npm run start:dev_**
 
-### This is a webpack project to both serve a React site locally for development and to build a bundle for production. It is hosted in Firebase.
+### This is a webpack project built from scratch to both serve a React site locally for development and to build a bundle for production. It is hosted in Firebase. NOT using create-react-app or Reacts eject functionality.
 
 Design:
 
